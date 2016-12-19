@@ -1,11 +1,5 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem "middleman"
-gem "middleman-deploy"
-
-# Live-reloading plugin
-gem "middleman-livereload"
-
-gem "slim"
+gem 'middleman', '>= 4.0.0'
+gem 'middleman-livereload'
+gem 'slim'
